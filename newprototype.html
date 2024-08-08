@@ -1,0 +1,302 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2113.6">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
+    span.s1 {font: 12.0px 'Apple Color Emoji'}
+  </style>
+</head>
+<body>
+<p class="p1">&lt;!DOCTYPE html&gt;</p>
+<p class="p1">&lt;html lang="en"&gt;</p>
+<p class="p1">&lt;head&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;AI Productivity Booster&lt;/title&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;style&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>body {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>font-family: Arial, sans-serif;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>line-height: 1.6;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #333;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>header, footer {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: #2c3e50;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #ecf0f1;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-align: center;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 1rem;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>main {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>flex-wrap: wrap;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>justify-content: space-around;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 2rem;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>#taskLogging, #dashboard, #voiceEntry, #chatbotInterface {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>max-width: 500px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 2rem;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>form {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>display: flex;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>flex-direction: column;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>input, select, button {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-bottom: 1rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 0.5rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: 1px solid #bdc3c7;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 4px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>button {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: #3498db;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: white;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: none;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>transition: background-color 0.3s;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>button:hover {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: #2980b9;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>table {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>width: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-collapse: collapse;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-top: 1rem;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>th, td {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: 1px solid #bdc3c7;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 0.5rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>text-align: left;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>th {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: #ecf0f1;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.badge {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: #f1c40f;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: #34495e;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 0.5rem;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin: 0.5rem 0;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 4px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>.voice-input-button {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>background-color: #3498db;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>color: white;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: none;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 50%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>cursor: pointer;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>#chatbot-interface {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border: 1px solid #bdc3c7;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>padding: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>margin-top: 10px;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>border-radius: 4px;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>@media (max-width: 768px) {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>main {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>flex-direction: column;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p1"><span class="Apple-converted-space">            </span>#taskLogging, #dashboard, #voiceEntry, #chatbotInterface {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>width: 100%;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</p>
+<p class="p1">&lt;/head&gt;</p>
+<p class="p1">&lt;body&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;header&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;h1&gt;AI Productivity Booster&lt;/h1&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p id="userName"&gt;Welcome, John Doe&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/header&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;main&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;section id="taskLogging"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2&gt;Log New Task&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;form id="taskForm"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;input type="text" id="taskName" placeholder="Task Name" required aria-label="Task Name"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;select id="taskCategory" required aria-label="Task Category"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;option value=""&gt;Select Category&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;option value="coding"&gt;Coding&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;option value="writing"&gt;Writing&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;option value="problemSolving"&gt;Problem Solving&lt;/option&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/select&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;input type="number" id="estimatedTime" placeholder="Estimated Manual Time (minutes)" required min="1" aria-label="Estimated Manual Time"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;input type="number" id="actualTime" placeholder="Actual AI-Assisted Time (minutes)" required min="1" aria-label="Actual AI-Assisted Time"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;button type="submit"&gt;Log Task&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/form&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;button id="voiceInputButton" class="voice-input-button" aria-label="Start Voice Input"&gt;<span class="s1">🎤</span>&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/section&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;section id="voiceEntry"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2&gt;Voice-to-Text Task Entry&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;p id="voiceResult"&gt;&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/section&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;section id="chatbotInterface"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2&gt;Chatbot Task Entry&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div id="chatbot-messages"&gt;&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;input type="text" id="chatbot-input" placeholder="Type your task here..." aria-label="Chatbot Input"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;button id="chatbot-send"&gt;Send&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/section&gt;</p>
+<p class="p2"><span class="Apple-converted-space">        </span></p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;section id="dashboard"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2&gt;Your Productivity Dashboard&lt;/h2&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div id="metrics"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p&gt;Total Tasks: &lt;span id="totalTasks"&gt;0&lt;/span&gt;&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p&gt;Time Saved: &lt;span id="timeSaved"&gt;0&lt;/span&gt; minutes&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;p&gt;Efficiency Improvement: &lt;span id="efficiency"&gt;0&lt;/span&gt;%&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div id="badges"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;h3&gt;Your Badges&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;div id="taskHistory"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;h3&gt;Recent Tasks&lt;/h3&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;table id="taskTable"&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;thead&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;th&gt;Task&lt;/th&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;th&gt;Category&lt;/th&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;th&gt;Time Saved&lt;/th&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                            </span>&lt;th&gt;Date&lt;/th&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/tr&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/thead&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;tbody&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/tbody&gt;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>&lt;/table&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>&lt;button id="clearData" style="margin-top: 1rem;"&gt;Clear All Data&lt;/button&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;/section&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/main&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;footer&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>&lt;p&gt;&amp;copy; 2023 AI Productivity Booster | Version 1.1&lt;/p&gt;</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/footer&gt;</p>
+<p class="p2"><span class="Apple-converted-space">    </span></p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;script&gt;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>document.getElementById('taskForm').addEventListener('submit', function(e) {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>e.preventDefault();</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const task = {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>name: document.getElementById('taskName').value,</p>
+<p class="p1"><span class="Apple-converted-space">                </span>category: document.getElementById('taskCategory').value,</p>
+<p class="p1"><span class="Apple-converted-space">                </span>estimatedTime: Math.max(1, parseInt(document.getElementById('estimatedTime').value)),</p>
+<p class="p1"><span class="Apple-converted-space">                </span>actualTime: Math.max(1, parseInt(document.getElementById('actualTime').value)),</p>
+<p class="p1"><span class="Apple-converted-space">                </span>timeSaved: Math.max(0, parseInt(document.getElementById('estimatedTime').value) - parseInt(document.getElementById('actualTime').value)),</p>
+<p class="p1"><span class="Apple-converted-space">                </span>date: new Date().toISOString()</p>
+<p class="p1"><span class="Apple-converted-space">            </span>};</p>
+<p class="p1"><span class="Apple-converted-space">            </span>saveTasks(task);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>updateDashboard();</p>
+<p class="p1"><span class="Apple-converted-space">            </span>this.reset();</p>
+<p class="p1"><span class="Apple-converted-space">        </span>});</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>function saveTasks(task) {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>try {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>let tasks = JSON.parse(localStorage.getItem('tasks')) || [];</p>
+<p class="p1"><span class="Apple-converted-space">                </span>tasks.push(task);</p>
+<p class="p1"><span class="Apple-converted-space">                </span>localStorage.setItem('tasks', JSON.stringify(tasks));</p>
+<p class="p1"><span class="Apple-converted-space">            </span>} catch (error) {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>console.error('Error saving task:', error);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>function updateDashboard() {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>try {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const tasks = JSON.parse(localStorage.getItem('tasks')) || [];</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const totalTasks = tasks.length;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const timeSaved = tasks.reduce((total, task) =&gt; total + task.timeSaved, 0);</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const totalEstimatedTime = tasks.reduce((total, task) =&gt; total + task.estimatedTime, 0);</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const efficiency = totalEstimatedTime &gt; 0 ? Math.round((timeSaved / totalEstimatedTime) * 100) : 0;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                </span>document.getElementById('totalTasks').textContent = totalTasks;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>document.getElementById('timeSaved').textContent = timeSaved;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>document.getElementById('efficiency').textContent = efficiency;</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">                </span>updateTaskHistory(tasks);</p>
+<p class="p1"><span class="Apple-converted-space">                </span>checkAndAwardBadges(totalTasks, timeSaved, efficiency);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>} catch (error) {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>console.error('Error updating dashboard:', error);</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>function updateTaskHistory(tasks) {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const tbody = document.querySelector('#taskTable tbody');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>tbody.innerHTML = '';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>tasks.slice(-5).reverse().forEach(task =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const row = tbody.insertRow();</p>
+<p class="p1"><span class="Apple-converted-space">                </span>row.insertCell(0).textContent = task.name;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>row.insertCell(1).textContent = task.category;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>row.insertCell(2).textContent = task.timeSaved + ' minutes';</p>
+<p class="p1"><span class="Apple-converted-space">                </span>row.insertCell(3).textContent = new Date(task.date).toLocaleDateString();</p>
+<p class="p1"><span class="Apple-converted-space">            </span>});</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>function checkAndAwardBadges(totalTasks, timeSaved, efficiency) {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const badges = document.getElementById('badges');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>badges.innerHTML = '&lt;h3&gt;Your Badges&lt;/h3&gt;';</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>if (totalTasks &gt;= 1) addBadge('AI Novice', 'Logged your first task!');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>if (timeSaved &gt;= 60) addBadge('Time Saver', 'Saved over 1 hour!');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>if (efficiency &gt;= 50) addBadge('Efficiency Expert', 'Improved efficiency by 50%!');</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>function addBadge(title, description) {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const badge = document.createElement('div');</p>
+<p class="p1"><span class="Apple-converted-space">            </span>badge.className = 'badge';</p>
+<p class="p1"><span class="Apple-converted-space">            </span>badge.innerHTML = `&lt;h4&gt;${title}&lt;/h4&gt;&lt;p&gt;${description}&lt;/p&gt;`;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>document.getElementById('badges').appendChild(badge);</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>document.getElementById('clearData').addEventListener('click', function() {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>if (confirm('Are you sure you want to clear all data? This action cannot be undone.')) {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>localStorage.removeItem('tasks');</p>
+<p class="p1"><span class="Apple-converted-space">                </span>updateDashboard();</p>
+<p class="p1"><span class="Apple-converted-space">            </span>}</p>
+<p class="p1"><span class="Apple-converted-space">        </span>});</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>// Voice-to-Text Task Entry</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const voiceRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;</p>
+<p class="p1"><span class="Apple-converted-space">        </span>if (voiceRecognition) {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const recognizer = new voiceRecognition();</p>
+<p class="p1"><span class="Apple-converted-space">            </span>document.getElementById('voiceInputButton').addEventListener('click', () =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>recognizer.start();</p>
+<p class="p1"><span class="Apple-converted-space">            </span>});</p>
+<p class="p2"><span class="Apple-converted-space">            </span></p>
+<p class="p1"><span class="Apple-converted-space">            </span>recognizer.onresult = (event) =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>const voiceResult = event.results[0][0].transcript;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>document.getElementById('taskName').value = voiceResult;</p>
+<p class="p1"><span class="Apple-converted-space">                </span>document.getElementById('voiceResult').textContent = `You said: ${voiceResult}`;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>};</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">            </span>recognizer.onerror = (event) =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">                </span>document.getElementById('voiceResult').textContent = `Error occurred in recognition: ${event.error}`;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>};</p>
+<p class="p1"><span class="Apple-converted-space">        </span>} else {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>document.getElementById('voiceResult').textContent = 'Voice recognition not supported in this browser.';</p>
+<p class="p1"><span class="Apple-converted-space">        </span>}</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>// Chatbot Interface</p>
+<p class="p1"><span class="Apple-converted-space">        </span>const chatbotResponses = {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>"hello": "Hi there! How can I assist you with your tasks?",</p>
+<p class="p1"><span class="Apple-converted-space">            </span>"log task": "Sure! What is the task name?",</p>
+<p class="p1"><span class="Apple-converted-space">            </span>"thank you": "You're welcome! Happy to help."</p>
+<p class="p1"><span class="Apple-converted-space">        </span>};</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>document.getElementById('chatbot-send').addEventListener('click', () =&gt; {</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const userMessage = document.getElementById('chatbot-input').value.toLowerCase();</p>
+<p class="p1"><span class="Apple-converted-space">            </span>const response = chatbotResponses[userMessage] || "I didn't understand that. Can you rephrase?";</p>
+<p class="p1"><span class="Apple-converted-space">            </span>document.getElementById('chatbot-messages').innerHTML += `&lt;p&gt;&lt;strong&gt;You:&lt;/strong&gt; ${userMessage}&lt;/p&gt;`;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>document.getElementById('chatbot-messages').innerHTML += `&lt;p&gt;&lt;strong&gt;Bot:&lt;/strong&gt; ${response}&lt;/p&gt;`;</p>
+<p class="p1"><span class="Apple-converted-space">            </span>document.getElementById('chatbot-input').value = '';</p>
+<p class="p1"><span class="Apple-converted-space">        </span>});</p>
+<p class="p2"><br></p>
+<p class="p1"><span class="Apple-converted-space">        </span>// Initial dashboard update</p>
+<p class="p1"><span class="Apple-converted-space">        </span>updateDashboard();</p>
+<p class="p1"><span class="Apple-converted-space">    </span>&lt;/script&gt;</p>
+<p class="p1">&lt;/body&gt;</p>
+<p class="p1">&lt;/html&gt;</p>
+</body>
+</html>
